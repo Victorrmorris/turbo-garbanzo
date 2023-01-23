@@ -120,7 +120,7 @@ def main():
     # ===================== Set page config and background =======================
     # Main panel setup
     # Set website details
-    st.set_page_config(page_title ="Job Description Similarity Scorer", 
+    st.set_page_config(page_title ="Job Design Similarity Scorer", 
                        page_icon=':desktop_computer:', 
                        layout='centered')
     """## Job description Similarity Scorer"""
