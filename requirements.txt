@@ -1,0 +1,10 @@
+streamlit
+numpy
+scikit-learn
+pandas
+seaborn
+matplotlib
+fasttext
+tensorflow-cpu
+tensorflow-hub
+wordcloud
