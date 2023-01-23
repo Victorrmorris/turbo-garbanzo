@@ -158,7 +158,7 @@ def main():
         submit_button = st.form_submit_button()
 
     if submit_button:
-      job_description_list = [Job_description1,Job_description2,Job_description3,Job_description4,Job_description5,Job_description6]
+      job_description_list = [Job_design,Job_description1,Job_description2,Job_description3,Job_description4,Job_description5]
       corr = pd.DataFrame(index = ["job description {}".format(i) for i in range(1,7)])
       if model_option == "ELMo":
         st.warning("Warning !!! This will take some time - it requires patience")
