@@ -123,7 +123,7 @@ def main():
     st.set_page_config(page_title ="Job Design Similarity Scorer", 
                        page_icon=':desktop_computer:', 
                        layout='centered')
-    """## Job description Similarity Scorer"""
+    """## Job Design Similarity Scorer"""
 
     with st.expander("About"):
         st.write("This App checks for the similarity between two job descriptions and returns the score, There are 3 models here currently, CountVectorizer, FastText and ELMo")
