@@ -126,7 +126,7 @@ def main():
     """## Job Design Similarity Scorer"""
 
     with st.expander("About"):
-        st.write("This App checks for the similarity between two job descriptions and returns the score, There are 3 models here currently, CountVectorizer, FastText and ELMo")
+        st.write("This App checks for the similarity between a user's job design and returns the score, There are 3 models here currently, CountVectorizer, FastText and ELMo")
    
     with st.expander("Settings"):
         model_option = st.selectbox('Kindly select preferred model',('Count vectorizer- scikit learn', 'ELMo','Fasttext'))
@@ -149,12 +149,12 @@ def main():
       demo_6 = ""
 
     with st.form(key = 'form1', clear_on_submit=False):
-        Job_description1 = st.text_area("First Job description", value=demo_1)
-        Job_description2 = st.text_area("Second Job description",value=demo_2)
-        Job_description3 = st.text_area("Third Job description",value=demo_3)
-        Job_description4 = st.text_area("Fourth Job description",value=demo_4)
-        Job_description5 = st.text_area("Fifth Job description",value=demo_5)
-        Job_description6 = st.text_area("Sixth Job description",value=demo_6)
+        Job_description1 = st.text_area("Job design template", value=demo_1)
+        Job_description2 = st.text_area("First Job description",value=demo_2)
+        Job_description3 = st.text_area("Second Job description",value=demo_3)
+        Job_description4 = st.text_area("Third Job description",value=demo_4)
+        Job_description5 = st.text_area("Fourth Job description",value=demo_5)
+        Job_description6 = st.text_area("Fifth Job description",value=demo_6)
         submit_button = st.form_submit_button()
 
     if submit_button:
@@ -173,11 +173,11 @@ def main():
         sns.heatmap(corr, cmap="Greens")
         plt.title('Heatmap of similarities between all the job descriptions')
         st.pyplot(fig)
-        st.write("\n The Similarity score between Job descriptions 1 and 2 is {}%".format(corr["job description 1"][1]))
-        st.write("The Similarity score between Job descriptions 1 and 3 is {}%".format(corr["job description 1"][2]))
-        st.write("The Similarity score between Job descriptions 1 and 4 is {}%".format(corr["job description 1"][3]))
-        st.write("The Similarity score between Job descriptions 1 and 5 is {}%".format(corr["job description 1"][4]))
-        st.write("The Similarity score between Job descriptions 1 and 6 is {}%\n".format(corr["job description 1"][5]))
+        st.write("\n The Similarity score between your Job design and 1 is {}%".format(corr["job description 1"][1]))
+        st.write("The Similarity score between your Job design and 2 is {}%".format(corr["job description 1"][2]))
+        st.write("The Similarity score between your Job design and 3 is {}%".format(corr["job description 1"][3]))
+        st.write("The Similarity score between your Job design and 4 is {}%".format(corr["job description 1"][4]))
+        st.write("The Similarity score between your Job design and 5 is {}%\n".format(corr["job description 1"][5]))
 
 
         # plot the WordCloud image                      
