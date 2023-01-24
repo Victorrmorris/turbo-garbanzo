@@ -138,7 +138,7 @@ def main():
       demo_2 = "Uses statistical methods and machine learning techniques to analyze data and develop insights to inform business decisions."
       demo_3 = "Develops and maintains software systems and applications, often working with a team of engineers or designers."
       demo_4 = "Plans, coordinates, and manages projects from conception to completion,ensuring that they are completed on time and within budget."
-      demo_5 = "Analyzes the business needs of organizations and recommends solutions that improve processses, increase efficiency, and drive growth". 
+      demo_5 = "Analyzes the business needs of organizations and recommends solutions that improve processses, increase efficiency, and drive growth." 
       demo_6 = "Analyzes and interprets financial data to inform investment decisions and support the financial goals of an organization."
     else:
       demo_1 = ""
