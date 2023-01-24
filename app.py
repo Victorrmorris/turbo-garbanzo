@@ -134,12 +134,12 @@ def main():
         demo = st.selectbox('Use Demo Texts',('No', 'Yes'))
     
     if demo == "Yes":
-      demo_1 = "Responsible for the coordination and management of all supply chain operations, including procurement, logistics, and distribution."
-      demo_2 = "Uses statistical methods and machine learning techniques to analyze data and develop insights to inform business decisions."
-      demo_3 = "Develops and maintains software systems and applications, often working with a team of engineers or designers."
-      demo_4 = "Plans, coordinates, and manages projects from conception to completion,ensuring that they are completed on time and within budget."
-      demo_5 = "Analyzes the business needs of organizations and recommends solutions that improve processses, increase efficiency, and drive growth." 
-      demo_6 = "Analyzes and interprets financial data to inform investment decisions and support the financial goals of an organization."
+      demo_1 = "Supply Chain Manager: Responsible for the coordination and management of all supply chain operations, including procurement, logistics, and distribution."
+      demo_2 = "Data Scientist: Uses statistical methods and machine learning techniques to analyze data and develop insights to inform business decisions."
+      demo_3 = "Software Engineer: Develops and maintains software systems and applications, often working with a team of engineers or designers."
+      demo_4 = "Project Manager: Plans, coordinates, and manages projects from conception to completion,ensuring that they are completed on time and within budget."
+      demo_5 = "Business Analyst: Analyzes the business needs of organizations and recommends solutions that improve processses, increase efficiency, and drive growth." 
+      demo_6 = "Financial Analyst: Analyzes and interprets financial data to inform investment decisions and support the financial goals of an organization."
     else:
       demo_1 = ""
       demo_2 = ""
