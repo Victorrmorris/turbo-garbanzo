@@ -150,6 +150,7 @@ def main():
 
     with st.form(key = 'form1', clear_on_submit=False):
         Job_design = st.text_area("Job design and role crafting template data", value=demo_1)
+        transferable_knowledge_skills = st.text_input("Choose your transferable knowledge and skills")
         Job_description1 = st.text_area("First Job description",value=demo_2)
         Job_description2 = st.text_area("Second Job description",value=demo_3)
         Job_description3 = st.text_area("Third Job description",value=demo_4)
