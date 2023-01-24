@@ -154,11 +154,11 @@ def main():
         transferable_attitudes_abilities = st.text_input("Choose your transferable attitudes and abilities")
         ideal_employee_experience_factors = st.text_input("Choose your ideal civilian employee experience factors")
         ideal_work_activities = st.text_input("Choose your ideal civilian work activities")
-        Job_description1 = st.text_area("First Job match",value=demo_2)
-        Job_description2 = st.text_area("Second Job match",value=demo_3)
-        Job_description3 = st.text_area("Third Job match",value=demo_4)
-        Job_description4 = st.text_area("Fourth Job match",value=demo_5)
-        Job_description5 = st.text_area("Fifth Job match",value=demo_6)
+        Job_description1 = st.text_area("Job match 1",value=demo_2)
+        Job_description2 = st.text_area("Job match 2",value=demo_3)
+        Job_description3 = st.text_area("Job match 3",value=demo_4)
+        Job_description4 = st.text_area("Job match 4",value=demo_5)
+        Job_description5 = st.text_area("Job match 5",value=demo_6)
         submit_button = st.form_submit_button()
 
     if submit_button:
