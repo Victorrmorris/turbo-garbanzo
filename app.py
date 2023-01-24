@@ -172,7 +172,7 @@ def main():
         corr["job description {}".format(i)] = [similarity_score(job_description_list[i-1],job_description_list[k-1], model_option) for k in range(1,7)]
         most_correlated = corr["job description 1"][1:].idxmax()
       st.success("I'm processing your request")
-      st.write("The most correlated Job description is {}".format(most_correlated))
+      st.write("The most correlated Job description is below".format(most_correlated))
       with st.expander("See More Analysis"):
         fig = plt.figure(figsize=(20, 12))
         sns.set(font_scale=1.5)
