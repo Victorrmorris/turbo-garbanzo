@@ -140,6 +140,7 @@ def main():
       demo_4 = "Project Manager: Plans, coordinates, and manages projects from conception to completion,ensuring that they are completed on time and within budget."
       demo_5 = "Business Analyst: Analyzes the business needs of organizations and recommends solutions that improve processses, increase efficiency, and drive growth." 
       demo_6 = "Financial Analyst: Analyzes and interprets financial data to inform investment decisions and support the financial goals of an organization."
+      demo_7 = "Supply Chain Manager: Responsible for the coordination and management of all supply chain operations, including procurement, logistics, and distribution."
     else:
       demo_1 = ""
       demo_2 = ""
@@ -147,6 +148,7 @@ def main():
       demo_4 = ""
       demo_5 = ""
       demo_6 = ""
+      demo_7 = ""
 
     with st.form(key = 'form1', clear_on_submit=False):
         Job_design = st.text_area("Military Occupational Specialty Description")
