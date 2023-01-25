@@ -152,9 +152,9 @@ def main():
 
     with st.form(key = 'form1', clear_on_submit=False):
         Job_design = st.text_area("Military Occupational Specialty Description")
-        transferable_knowledge_skills = st.text_input("Choose your transferable knowledge and skills")
-        transferable_attitudes_abilities = st.text_input("Choose your transferable attitudes and abilities")
-        ideal_employee_experience_factors = st.text_input("Choose your ideal civilian employee experience factors")
+        transferable_knowledge_skills = st.text_area("Choose your transferable knowledge and skills")
+        transferable_attitudes_abilities = st.text_area("Choose your transferable attitudes and abilities")
+        ideal_employee_experience_factors = st.text_area("Choose your ideal civilian employee experience factors")
         ideal_work_activities = st.text_input("Choose your ideal civilian work activities")
         Job_description1 = st.text_area("Job reco 1",value=demo_2)
         Job_description2 = st.text_area("Job reco 2",value=demo_3)
